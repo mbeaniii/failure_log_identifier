@@ -8,7 +8,7 @@ To install the required dependencies, please use the requirements.txt file provi
 
 ## Chromedriver Setup
 
-This script uses Selenium with Chromedriver to scrape the files. To set up Chromedriver, follow these steps:
+This script uses Selenium with Chromedriver to scrape the html log files. To set up Chromedriver, follow these steps:
 
 1. Check your Google Chrome version: Open Google Chrome, click the three vertical dots in the top-right corner > Help > About Google Chrome. Note down your Chrome version.
 2. Download the appropriate Chromedriver for your machine and Chrome version from the Chromedriver downloads page.
