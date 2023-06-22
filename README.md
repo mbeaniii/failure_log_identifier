@@ -1,5 +1,5 @@
 # Find All Fails
-This Python script searches for files containing a specified pattern ("AssertionError") within a given directory and its subdirectories. Matching files are then copied into a "fails" folder, unless they are larger than 5 MB.
+This Python script searches for files containing any of the specified patterns (ATOW inclusive of ["AssertionError", '"was_successful": false']) within a given directory and its subdirectories. Matching files are then copied into a "fails" folder, unless they are larger than 5 MB.
 
 ## Dependencies
 To install the required dependencies, please use the requirements.txt file provided in this repository. To do this, open your terminal or command prompt, navigate to the project directory, and run the following command:
