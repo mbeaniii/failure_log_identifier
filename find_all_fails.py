@@ -12,8 +12,8 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
 class FailFileFinder:
-    CHROMEDRIVER_PATH = "C:\Program Files\chromedriver_win32\chromedriver.exe"
-    MATCH_PATTERNS = ["AssertionError", '"was_successful": false']
+    CHROMEDRIVER_PATH = "C:/Users/MarcusBean/Downloads/chromedriver_win32/chromedriver.exe"
+    MATCH_PATTERNS = ["AssertionError", '"was_successful": false', 'FAILED']
 
     def __init__(self, directory: str):
         self.directory = directory
