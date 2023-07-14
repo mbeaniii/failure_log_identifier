@@ -13,7 +13,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 class FailFileFinder:
     CHROMEDRIVER_PATH = "C:/Users/MarcusBean/Downloads/chromedriver_win32/chromedriver.exe"
-    MATCH_PATTERNS = ["AssertionError", '"was_successful": false', 'Exception: FAILED']
+    MATCH_PATTERNS = ["AssertionError", '"was_successful": false', 'Exception: FAILED', 'The execution of this command did not finish successfully']
 
     def __init__(self, directory: str):
         self.directory = directory
